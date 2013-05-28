@@ -1,0 +1,35 @@
+<rml>
+	<head>
+        <link type="text/rcss" href="gui.rcss" />
+	
+<title>Rollin Menu</title>
+
+<script>
+def doStart():
+    messenger.send("doStart")
+    print "Start!"
+def doOptions():
+    messenger.send("doOptions")
+    print "Options!"
+def doExit():
+    messenger.send("doExit")
+    print "Exit!"
+
+
+</script>
+
+</head>
+
+<body>
+    
+    <div class="menu">
+        <div class="button" onclick="doStart()">START</div>
+        <div class="button" onclick="doOptions()">OPTIONS</div>
+        <div class="button" onclick="doExit()">EXIT</div>
+    
+    
+    </div>
+	
+ 
+</body>
+</rml>

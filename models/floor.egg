@@ -1,0 +1,36 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "egg-trans -tbnall -o 'E:\Projects\SideViewer\floor.egg' 'E:\Projects\SideViewer\floor.egg'"
+}
+<Group> Plane {
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0 0 0 1
+    }
+  }
+  <Tag> floor {
+    static
+  }
+  <VertexPool> Plane {
+    <Vertex> 0 {
+      1.25041 8.06141 0.173079
+    }
+    <Vertex> 1 {
+      -1.36304 8.06141 0.173079
+    }
+    <Vertex> 2 {
+      -1.36304 -9.77239 0.173079
+    }
+    <Vertex> 3 {
+      1.25041 -9.77239 0.173079
+    }
+  }
+  <Polygon> {
+    <Normal> { 0 0 1 }
+    <VertexRef> { 0 1 2 3 <Ref> { Plane } }
+  }
+}

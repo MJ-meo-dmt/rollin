@@ -1,0 +1,25 @@
+Ground:
+floor = static
+
+Collision walls:
+level = static
+invis = static # Leave out to show the model
+
+Cubes: Scale = 0.800xyz
+box = static
+dynamic = 1 # To make it move able.
+
+Lights:
+light = point or spot # Spotlights need extra stuff atm don't use them
+r = float* 0.0 - 1.0
+g = 0.0 - 1.0
+b = 0.0 - 1.0
+
+Coins: Scale = 0.256xyz
+coin = static
+
+Start pos:
+start = static # Same as coins (the shape & size sphere)
+
+Exit pos:
+exit = static # Same as coins ""

@@ -1,0 +1,12 @@
+Rollin:
+
+######################
+Ideas:
+
+- Make it RPG Style?
+- Add up/down movement
+- add camera holders for cube maps,
+4 2d levels connected, in a cube up and down, rpg style adventure
+
+
+#####################

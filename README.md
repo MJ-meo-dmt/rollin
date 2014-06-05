@@ -14,3 +14,5 @@ Physics ball game
 - Use mouseWheel in/out for Zoom 
 
 - Use Space to Jump
+
+Check the Forum post here: http://www.panda3d.org/forums/viewtopic.php?f=6&t=15955
